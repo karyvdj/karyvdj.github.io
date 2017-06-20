@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Karina Donjuan</title>
+    <link rel="shortcut icon" type="image/x-icon" href="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.25/css/uikit.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <section class="uk-position-top">
+      <nav class="uk-navbar-container uk-margin " uk-navbar="mode: click">
+        <a class="uk-button  uk-hidden@m uk-visible@xs"  uk-toggle="target: #offcanvas-nav">MENÚ</button>
+        <div class="uk-navbar-right uk-visible@m">
+            <a href="#" class="uk-icon-button" uk-icon="icon: code"></a>
+            <ul class="uk-navbar-nav">
+                <li class="uk-active"><a href="#">Acerca de mí</a></li>
+                <li>
+                  <a href="#">
+                    Mis Proyectos
+                    <span uk-icon="icon: triangle-down"></span>
+                  </a>
+                  <div class="uk-navbar-dropdown">
+                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="#">Web</a></li>
+                        <li><a href="#">Diseño</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="#">Contactame</a></li>
+            </ul>
+        </div>
+      </nav>
+    </section>
+
+    <section>
+      <div id="offcanvas-nav" uk-offcanvas="overlay: true">
+        <div class="uk-offcanvas-bar">
+          <ul class="uk-nav uk-nav-default">
+            <li class="uk-nav-header uk-active"><a href="#">Acerca de mí</a></li>
+            <li class="uk-parent">
+                <a href="#">Mis Proyectos</a>
+                <ul class="uk-nav-sub">
+                    <li>
+                      <a href="#">
+                        <span class="uk-margin-small-right" uk-icon="icon: laptop"></span>
+                        Web
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span class="uk-margin-small-right" uk-icon="icon: thumbnails"></span>
+                        Diseño
+                      </a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+              <a href="#"> Contactame</a>
+             </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="uk-background-center-center uk-background-cover uk-height-large uk-flex uk-flex-column uk-flex-center uk-flex-middle" id="fondo">
+      <h1 uk-parallax="viewport: 0.5">Karina Donjuan</h1>
+      <span>Front-end developer & Diseñadora Gráfica</span>
+    </section>
+
+      <div class=" uk-grid-divider uk-grid uk-padding-large">
+
+          <div class="uk-width-1-2@m uk-width-1-6@s">
+            <h3>Acerca de mi</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+
+         <div class="uk-width-1-2@m uk-width-1-6@s">
+            <h3>Habilidades Técnicas</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+         </div>
+      </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.25/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.25/js/uikit-icons.min.js"></script>
+  </body>
+</html>
