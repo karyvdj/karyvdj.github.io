@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
+<!-- MENU DESKTOP -->
     <section class="uk-position-top">
-      <nav class="uk-navbar-container uk-margin " uk-navbar="mode: click">
-        <a class="uk-button  uk-hidden@m uk-visible@xs"  uk-toggle="target: #offcanvas-nav">MENÚ</button>
+      <nav class=" uk-navbar-container uk-margi " uk-navbar="mode: click" uk-sticky="bottom: #offset">
+        <a class="uk-button uk-hidden@m uk-visible@xs"  uk-toggle="target: #offcanvas-nav">MENÚ</button>
         <div class="uk-navbar-right uk-visible@m">
             <a href="#" class="uk-icon-button" uk-icon="icon: code"></a>
             <ul class="uk-navbar-nav">
@@ -35,6 +36,7 @@
       </nav>
     </section>
 
+<!-- MENU MOVIL -->
     <section>
       <div id="offcanvas-nav" uk-offcanvas="overlay: true">
         <div class="uk-offcanvas-bar">
@@ -65,28 +67,87 @@
       </div>
     </section>
 
-    <section class="uk-background-center-center uk-background-cover uk-height-large uk-flex uk-flex-column uk-flex-center uk-flex-middle" id="fondo">
-      <h1 uk-parallax="viewport: 0.5">Karina Donjuan</h1>
-      <span>Front-end developer & Diseñadora Gráfica</span>
+<!-- SECCION PORTADA -->
+    <section class=" uk-background-fixed uk-background-center-center uk-background-cover uk-height-large uk-flex uk-flex-column uk-flex-center uk-flex-middle" id="fondo">
+      <h1 uk-parallax="blur: 10; sepia: 100;">Karina Donjuan</h1>
+      <span uk-parallax="blur: 10; sepia: 100;">Front-end developer & Diseñadora Gráfica</span>
     </section>
 
-      <div class=" uk-grid-divider uk-grid uk-padding-large">
-
-          <div class="uk-width-1-2@m uk-width-1-6@s">
-            <h3>Acerca de mi</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div>
-
-         <div class="uk-width-1-2@m uk-width-1-6@s">
-            <h3>Habilidades Técnicas</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-         </div>
+<!-- SECCION ACERCA DE MI -->
+    <section class=" uk-grid-divider uk-grid uk-padding-large">
+      <div class="uk-width-1-2@m uk-width-1-6@s">
+        <h3>Acerca de mi</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
       </div>
+      <div class="uk-width-1-2@m uk-width-1-6@s">
+        <h3>Habilidades Técnicas</h3>
+        <img src="" alt="">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
+    </section>
+
+    <div class=" uk-grid uk-grid-match uk-grid-collapse uk-padding-large" uk-grid>
+      <div class="uk-text-center uk-width-1-3@m uk-width-1-6@s">
+          <div class="uk-inline-clip uk-transition-toggle">
+              <img src="assets/img/ben-neale-210881.jpg" alt="">
+              <div class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+                  <p class="uk-h4 uk-margin-remove">Fade</p>
+              </div>
+          </div>
+          <p class="uk-margin-small-top">Fade</p>
+      </div>
+      <div class="uk-text-center uk-width-1-3@m uk-width-1-6@s">
+          <div class="uk-inline-clip uk-transition-toggle">
+              <img src="assets/img/ben-neale-210881.jpg" alt="">
+              <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                  <p class="uk-h4 uk-margin-remove">Bottom</p>
+              </div>
+          </div>
+          <p class="uk-margin-small-top">Bottom</p>
+      </div>
+      <div class="uk-text-center uk-width-1-3@m uk-width-1-6@s">
+          <div class="uk-inline-clip uk-transition-toggle uk-light">
+              <img src="assets/img/ben-neale-210881.jpg" alt="">
+              <div class="uk-position-center">
+                  <span class="uk-transition-fade" uk-icon="icon: plus; ratio: 2"></span>
+              </div>
+          </div>
+          <p class="uk-margin-small-top">Icon</p>
+      </div>
+      <div class="uk-text-center uk-width-1-3@m uk-width-1-6@s">
+          <div class="uk-inline-clip uk-transition-toggle">
+              <img src="assets/img/ben-neale-210881.jpg" alt="">
+              <img class="uk-transition-scale-up uk-position-cover" src="assets/img/ben-neale-210881.jpg" alt="">
+          </div>
+          <p class="uk-margin-small-top">2 Images</p>
+      </div>
+      <div class="uk-text-center uk-width-1-3@m uk-width-1-6@s">
+          <div class="uk-inline-clip uk-transition-toggle">
+              <img class="uk-transition-scale-up uk-transition-opaque" src="assets/img/ben-neale-210881.jpg" alt="">
+          </div>
+          <p class="uk-margin-small-top">Scale Up Image</p>
+      </div>
+      <div class="uk-text-center uk-width-1-3@m uk-width-1-6@s">
+          <div class="uk-inline-clip uk-transition-toggle uk-light">
+              <img src="assets/img/ben-neale-210881.jpg" alt="">
+              <div class="uk-position-center">
+                  <div class="uk-transition-slide-top-small"><h4 class="uk-margin-remove">Headline</h4></div>
+                  <div class="uk-transition-slide-bottom-small"><h4 class="uk-margin-remove">Subheadline</h4></div>
+              </div>
+          </div>
+          <p class="uk-margin-small-top">Small Top + Bottom</p>
+      </div>
+  </div>
+
+<!-- FOOTER  -->
+    <footer>
+
+    </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.25/js/uikit.min.js"></script>
