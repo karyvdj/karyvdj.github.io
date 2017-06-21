@@ -12,25 +12,28 @@
   <body>
 <!-- MENU DESKTOP -->
     <section class="uk-position-top">
-      <nav class=" uk-navbar-container uk-margin " uk-navbar="mode: click" uk-sticky="bottom: #offset">
-        <a class="uk-button uk-hidden@m uk-visible@xs"  uk-toggle="target: #offcanvas-nav">MENÚ</button>
+      <nav class="opacidad uk-margin" uk-navbar="mode: click" uk-sticky="bottom: #offset">
+        <a href="#" class="uk-button uk-hidden@m uk-visible@xs"  uk-toggle="target: #offcanvas-nav">
+          <span uk-navbar-toggle-icon></span>
+          <span class="uk-margin-small-left">MENÚ</span>
+        </a>
         <div class="uk-navbar-right uk-visible@m">
-            <a href="#" class="uk-icon-button" uk-icon="icon: code"></a>
+            <a href="#" class="uk-icon-button texto-marino" uk-icon="icon: code"></a>
             <ul class="uk-navbar-nav">
-                <li class="uk-active"><a href="#">Acerca de mí</a></li>
+                <li class="uk-active"><a href="#acercaMi" class="texto-marino">Acerca de mí</a></li>
                 <li>
-                  <a href="#">
+                  <a href="#" class="texto-marino">
                     Mis Proyectos
                     <span uk-icon="icon: triangle-down"></span>
                   </a>
                   <div class="uk-navbar-dropdown">
                     <ul class="uk-nav uk-navbar-dropdown-nav">
-                        <li class="uk-active"><a href="#">Web</a></li>
-                        <li><a href="#">Diseño</a></li>
+                        <li ><a href="#proyectosWeb" class="texto-marino">Web</a></li>
+                        <li><a href="#" class="texto-marino">Diseño</a></li>
                     </ul>
                   </div>
                 </li>
-                <li><a href="#">Contáctame</a></li>
+                <li><a href="#contactame" class="texto-marino">Contáctame</a></li>
             </ul>
         </div>
       </nav>
@@ -39,14 +42,14 @@
 <!-- MENU MOVIL -->
     <section>
       <div id="offcanvas-nav" uk-offcanvas="overlay: true">
-        <div class="uk-offcanvas-bar">
+        <div class="uk-offcanvas-bar turquesa">
           <ul class="uk-nav uk-nav-default">
-            <li class="uk-nav-header uk-active"><a href="#">Acerca de mí</a></li>
+            <li class="uk-nav-header uk-active"><a href="#acercaMi">Acerca de mí</a></li>
             <li class="uk-parent">
                 <a href="#">Mis Proyectos</a>
                 <ul class="uk-nav-sub">
                     <li>
-                      <a href="#">
+                      <a href="#proyectosWeb">
                         <span class="uk-margin-small-right" uk-icon="icon: laptop"></span>
                         Web
                       </a>
@@ -60,7 +63,7 @@
                 </ul>
             </li>
             <li>
-              <a href="#"> Contactáme</a>
+              <a href="#contactame"> Contactáme</a>
              </li>
           </ul>
         </div>
@@ -74,25 +77,57 @@
     </section>
 
 <!-- SECCION ACERCA DE MI -->
-    <section class=" uk-grid-divider uk-grid uk-child-width-1-2@m uk-child-width-1-2@s uk-padding-large">
-      <div>
-        <h3>Acerca de mi</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
-      </div>
-      <div>
-        <h3>Habilidades Técnicas</h3>
-        <img src="" alt="">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
+    <section id="acercaMi" class="uk-grid uk-child-width-1-2@m uk-child-width-1-2@s uk-padding-large ">
+      <article>
+      <h2 class="texto-magenta">Acerca de mi</h2>
+      <div class="uk-grid uk-padding-small uk-child-width-1-2@m uk-child-width-1-6@s uk-grid-small">
+        <div class="">
+          <img src="assets/img/yo.jpg" alt="Karina">
+        </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </article>
+
+      <article>
+        <h2 class="texto-magenta">Habilidades Técnicas</h2>
+        <div class="uk-child-width-expand uk-grid-small uk-text-center uk-grid">
+          <div class="uk-inline-clip uk-transition-toggle ">
+            <img src="assets/img/tecnico-04.png" alt="html">
+            <div class="uk-transition-fade uk-position-cover  uk-overlay  uk-flex uk-flex-center uk-flex-middle">
+                <p class="uk-h4 uk-margin-remove">Fade</p>
+            </div>
+          </div>
+          <div>
+            <img src="assets/img/tecnico-05.png" alt="">
+          </div>
+          <div>
+            <img src="assets/img/tecnico-06.png" alt="">
+          </div>
+        </div>
+        <div class="uk-child-width-expand uk-grid-small uk-text-center uk-grid">
+          <div>
+            <img src="assets/img/tecnico-07.png" alt="">
+          </div>
+          <div>
+            <img src="assets/img/tecnico-08.png" alt="">
+          </div>
+          <div>
+            <img src="assets/img/tecnico-09.png" alt="">
+          </div>
+          <div>
+            <img src="assets/img/tecnico-10.png" alt="">
+          </div>
+        </div>
+        <h4>Framework</h4>
+
       </div>
     </section>
 
 <!-- SECCION PROYECTOS WEB -->
-    <section>
+    <section id="proyectosWeb">
       <h3 class="uk-text-center">Mis Proyectos</h3>
       <section class="uk-grid uk-grid-collapse uk-padding-large uk-child-width-1-2@s uk-child-width-1-3@m" uk-scrollspy="cls: uk-animation-fade; target: .proyectos; delay: 500; repeat: true" >
         <div class="proyectos">
@@ -146,7 +181,7 @@
     </section>
 
 <!-- FOOTER  -->
-    <footer class="uk-section uk-section-secondary uk-light">
+    <footer id="contactame" class="uk-section uk-section-secondary uk-light magenta">
         <div class="uk-container">
             <div class="uk-text-center">
                 <h3>Contáctame</h3>

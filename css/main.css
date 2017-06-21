@@ -1,9 +1,36 @@
+.texto-turquesa{
+  color: #22C5AA;
+}
+.texto-magenta{
+  color: #E80266;
+}
+.texto-marino{
+  color: #012F55;
+}
+.texto-gris{
+  color: #788A8C;
+}
+.turquesa{
+  background: #22C5AA;
+}
+.magenta{
+  background: #E80266;
+}
+.marino{
+  background: #012F55;
+}
+.opacidad{
+  background: rgba(255, 255, 255, 0.5);
+}
 #fondo{
   background-image: url(../assets/img/ben-neale-210881.jpg);
   height: 100vh;
 }
-#frase-footer{
+/*#acercaMi{
+  height: 50vh;
+}*/
+/*#frase-footer{
   height: 10vh;
   background-color: blue;
   margin-bottom: 0px;
-}
+}*/
