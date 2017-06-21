@@ -1,4 +1,9 @@
 #fondo{
   background-image: url(../assets/img/ben-neale-210881.jpg);
-
+  height: 100vh;
+}
+#frase-footer{
+  height: 10vh;
+  background-color: blue;
+  margin-bottom: 0px;
 }
