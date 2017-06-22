@@ -1,8 +1,9 @@
-.texto-turquesa{
-  color: #22C5AA;
+body{
+  font-family:'Pavanam', sans-serif;
+
 }
 .texto-magenta{
-  color: #E80266;
+  color: #AB0067;
 }
 .texto-marino{
   color: #012F55;
@@ -10,27 +11,28 @@
 .texto-gris{
   color: #788A8C;
 }
+.azul-morado{
+  background: #708DBF;
+}
 .turquesa{
-  background: #22C5AA;
+  background: #49C6C2;
 }
 .magenta{
-  background: #E80266;
+  background: #AB0067;
 }
 .marino{
   background: #012F55;
 }
 .opacidad{
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.8);
 }
 #fondo{
   background-image: url(../assets/img/ben-neale-210881.jpg);
   height: 100vh;
 }
-/*#acercaMi{
-  height: 50vh;
-}*/
-/*#frase-footer{
-  height: 10vh;
-  background-color: blue;
-  margin-bottom: 0px;
-}*/
+.fuente-principal{
+  font-family: 'Carrois Gothic SC', sans-serif;
+}
+.uk-link, a:hover{
+  color: white;
+}
