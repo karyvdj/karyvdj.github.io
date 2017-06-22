@@ -8,7 +8,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.25/css/uikit.min.css" />
     <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC|Pavanam" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One|Pavanam|Megrim" rel="stylesheet">
   </head>
   <body>
 <!-- MENU DESKTOP -->
@@ -72,9 +72,9 @@
     </section>
 
 <!-- SECCION PORTADA -->
-    <section class=" uk-background-fixed uk-background-center-center uk-background-cover  uk-flex uk-flex-column uk-flex-center uk-flex-middle" id="fondo">
-      <h1  class="fuente-principal texto-marino uk-heading-hero" uk-parallax="blur: 10; sepia: 100;">Karina Donjuan</h1>
-      <span  class="fuente-principal uk-text-lead" uk-parallax="blur: 10; sepia: 100;">Front-end developer & Diseñadora Gráfica</span>
+    <section class=" uk-background-fixed uk-background-center-center uk-background-cover  uk-flex uk-flex-column uk-flex-center uk-flex-middle uk-text-center@s" id="fondo">
+      <h1 class="nombre-portada texto-marino uk-heading-hero" uk-parallax="blur: 10; sepia: 100;">Karina Donjuan</h1>
+      <span class="subtitulos texto-gris uk-text-lead" uk-parallax="blur: 10; sepia: 100;">Front-end developer & Diseñadora Gráfica</span>
       <a class="texto-magenta" href="#acercaMi" uk-scroll>
           <span uk-icon="icon: chevron-down; ratio: 4" class="uk-position-bottom-center scrolldown"></span>
       </a>
@@ -82,117 +82,159 @@
 
 <!-- SECCION ACERCA DE MI -->
     <section id="acercaMi" class="uk-grid uk-child-width-1-2@m uk-child-width-1-2@s uk-padding-large ">
-      <article class="uk-text-right uk-heading-line">
-      <h2 class="texto-magenta uk-padding-small">Acerca de mi</h2>
-      <div class="uk-grid uk-padding-small uk-child-width-1-2@m uk-child-width-1-6@s uk-grid-small">
-        <div class="">
-          <img class="" src="assets/img/yo.jpg" alt="Karina">
+      <article class="uk-text-right uk-padding-small uk-heading-line">
+      <h2 class="texto-magenta subtitulos">Acerca de mi</h2>
+      <div class="uk-grid uk-padding-small uk-child-width-1-2@m uk-child-width-1-2@s uk-grid-large@m uk-grid-large@s uk-panel">
+        <div>
+          <img uk-scrollspy="cls: uk-animation-slide-left; repeat: true" src="assets/img/yo.jpg" alt="Karina">
         </div>
+        <div class="uk-text-left">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           </p>
+          <div class="uk-margin-left">
+            <a target="_blank" class="uk-button uk-button-default magenta texto-blanco" href="assets/img/cv_donjuan.pdf"> Ver CV</a>
+          </div>
+        </div>
         </div>
       </article>
 
-      <article class="uk-text-right uk-heading-line">
-        <h2 class="texto-magenta uk-padding-small">Habilidades Técnicas</h2>
-        <div class="uk-child-width-expand uk-grid-small uk-text-center uk-grid">
-          <div class="uk-inline-clip uk-transition-toggle ">
+      <article class="uk-text-right">
+        <div class=" uk-heading-line">
+          <h2 class="texto-magenta subtitulos uk-padding-small">Habilidades Técnicas</h2>
+        </div>
+        <div class="uk-child-width-1-4@m uk-child-width-1-4@s  uk-grid-small uk-text-center uk-grid">
+          <a class="uk-button" title="INTERMEDIO" uk-tooltip="pos:top-right">
             <img src="assets/img/tecnico-04.png" alt="html">
-            <div class="uk-transition-fade uk-position-cover uk-flex uk-flex-center uk-flex-middle">
-                <p class="uk-h4 uk-margin-remove">Fade</p>
-            </div>
-          </div>
-          <div>
+          </a>
+          <a class="uk-button " title="INTERMEDIO" uk-tooltip="pos:top-right">
             <img src="assets/img/tecnico-05.png" alt="">
-          </div>
-          <div>
+          </a>
+          <a class="uk-button " title="BÁSICO" uk-tooltip="pos:top-right">
             <img src="assets/img/tecnico-06.png" alt="">
-          </div>
+          </a>
+          <a class="uk-button ocultar-movile" title="BÁSICO" uk-tooltip="pos:top-right">
+            <img src="assets/img/tecnico-11.png" alt="">
+          </a>
         </div>
-        <div class="uk-child-width-expand uk-grid-small uk-text-center uk-grid">
-          <div>
+        <div class="uk-child-width-1-4@m uk-child-width-1-4@s  uk-grid-small uk-text-center uk-grid ocultar-movile">
+          <a class="uk-button " title="AVANZADO" uk-tooltip="pos:bottom-right">
             <img src="assets/img/tecnico-07.png" alt="">
-          </div>
-          <div>
+          </a>
+          <a class="uk-button " title="AVANZADO" uk-tooltip="pos:bottom-right">
             <img src="assets/img/tecnico-08.png" alt="">
-          </div>
-          <div>
+          </a>
+          <a class="uk-button " title="AVANZADO" uk-tooltip="pos:bottom-right">
             <img src="assets/img/tecnico-09.png" alt="">
-          </div>
-          <div>
+          </a>
+          <a class="uk-button " title="BÁSICO" uk-tooltip="pos:bottom-right">
             <img src="assets/img/tecnico-10.png" alt="">
-          </div>
+          </a>
         </div>
-        <h3 class="texto-magenta">Framework</h3>
-
-      </div>
+        <div class="uk-margin uk-heading-line ocultar-movile">
+          <h3 class="texto-magenta subtitulos">Framework</h3>
+        </div>
+        <div class="uk-child-width-1-3@m uk-child-width-1-5@s  uk-grid-small uk-flex-center uk-grid ocultar-movile">
+          <a class="uk-button " title="INTERMEDIO" uk-tooltip="pos:bottom-right">
+            <img src="assets/img/frame-12.png" alt="">
+          </a>
+          <a class="uk-button " title="INTERMEDIO" uk-tooltip="pos:bottom-right">
+            <img src="assets/img/frame-13.png" alt="">
+          </a>
+          <a class="uk-button " title="INTERMEDIO" uk-tooltip="pos:bottom-right">
+            <img src="assets/img/frame-14.png" alt="">
+          </a>
+        </div>
+      </article>
     </section>
 
 <!-- SECCION PROYECTOS WEB -->
-    <section id="proyectosWeb" class="turquesa ">
-      <h2 class="uk-text-center uk-padding-large">Mis Proyectos</h2>
-      <section class="uk-grid uk-grid-collapse uk-padding-large uk-child-width-1-2@s uk-child-width-1-3@m" uk-scrollspy="cls: uk-animation-fade; target: .proyectos; delay: 500; repeat: true" >
-        <div class="proyectos">
+    <section id="proyectosWeb" class="turquesa  uk-padding-large">
+      <h2 class="uk-text-center uk-padding-large subtitulos">Mis Proyectos</h2>
+      <section class="uk-grid uk-grid-collapse" uk-scrollspy="cls: uk-animation-fade; target: .proyectos; delay: 500; repeat: true" >
+        <div class="proyectos uk-width-1-2@m uk-width-1-2@s">
             <div class="uk-inline-clip uk-transition-toggle">
                 <img src="assets/img/OGN2Y60.jpg" alt="">
-                <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
-                    <p class="uk-h4 uk-margin-remove">Bottom</p>
+                <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default uk-flex uk-column uk-flex-between">
+                    <p class="uk-h4 uk-margin-remove">Nombre Proyecto</p>
+                    <a href="#proyecto1" uk-toggle  class="uk-icon-button uk-margin-small-right marino texto-blanco" uk-icon="icon: plus"></a>
                 </div>
             </div>
         </div>
-        <div class="proyectos">
+        <div class="proyectos uk-width-1-4@m uk-width-1-4@s">
             <div class="uk-inline-clip uk-transition-toggle">
                 <img src="assets/img/OGN2Y60.jpg" alt="">
-                <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
-                    <p class="uk-h4 uk-margin-remove">Bottom</p>
+                <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default uk-flex uk-column uk-flex-between">
+                    <p class="uk-h4 uk-margin-remove">Nombre Proyecto</p>
+                    <a href="#proyecto1" uk-toggle  class="uk-icon-button uk-margin-small-right marino texto-blanco" uk-icon="icon: plus"></a>
                 </div>
             </div>
         </div>
-        <div class="proyectos">
+        <div class="proyectos uk-width-1-4@m uk-width-1-4@s ocultar-movile">
             <div class="uk-inline-clip uk-transition-toggle">
                 <img src="assets/img/OGN2Y60.jpg" alt="">
-                <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
-                    <p class="uk-h4 uk-margin-remove">Bottom</p>
-                </div>
-            </div>
-        </div>
-        <div class="proyectos">
-            <div class="uk-inline-clip uk-transition-toggle">
-                <img src="assets/img/4190.jpg" alt="">
-                <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
-                    <p class="uk-h4 uk-margin-remove">Bottom</p>
-                </div>
-            </div>
-        </div>
-        <div class="proyectos">
-            <div class="uk-inline-clip uk-transition-toggle">
-                <img src="assets/img/4190.jpg" alt="">
-                <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
-                    <p class="uk-h4 uk-margin-remove">Bottom</p>
-                </div>
-            </div>
-        </div>
-        <div class="proyectos">
-            <div class="uk-inline-clip uk-transition-toggle">
-                <img src="assets/img/4190.jpg" alt="">
-                <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
-                    <p class="uk-h4 uk-margin-remove">Bottom</p>
+                <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default uk-flex uk-column uk-flex-between">
+                    <p class="uk-h4 uk-margin-remove">Nombre Proyecto</p>
+                    <a href="#proyecto1" uk-toggle  class="uk-icon-button uk-margin-small-right marino texto-blanco" uk-icon="icon: plus"></a>
                 </div>
             </div>
         </div>
     </section>
+    <section class="uk-grid uk-grid-collapse" uk-scrollspy="cls: uk-animation-fade; target: .proyectos; delay: 500; repeat: true">
+      <div class="proyectos uk-width-2-5@s uk-width-1-3@m">
+          <div class="uk-inline-clip uk-transition-toggle">
+              <img src="assets/img/4190.jpg" alt="">
+              <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                  <p class="uk-h4 uk-margin-remove">Bottom</p>
+              </div>
+          </div>
+      </div>
+      <div class="proyectos uk-width-3-5@s uk-width-2-3@m">
+          <div class="uk-inline-clip uk-transition-toggle">
+              <img src="assets/img/4190.jpg" alt="">
+              <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                  <p class="uk-h4 uk-margin-remove">Bottom</p>
+              </div>
+          </div>
+      </div>
+      <!-- <div class="proyectos">
+          <div class="uk-inline-clip uk-transition-toggle">
+              <img src="assets/img/4190.jpg" alt="">
+              <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                  <p class="uk-h4 uk-margin-remove">Bottom</p>
+              </div>
+          </div>
+      </div> -->
+    </section>
+  </section>
+<!-- MODAL -->
+    <section id="proyecto1" class="uk-modal-full" uk-modal>
+        <section class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <article class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('../docs/images/photo.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>Headline</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </article>
+        </section>
+    </section>
 
 <!-- FOOTER  -->
-    <footer id="contactame" class="uk-section uk-section-secondary uk-light magenta">
+    <footer id="contactame" class="uk-section uk-section-secondary uk-light magenta uk-padding">
         <div class="uk-container">
             <div class="uk-text-center">
-                <h3>Contáctame</h3>
+                <div class="uk-text-center uk-heading-line">
+                  <h2 class="nombre-portada ">Karina Donjuan</h2>
+                </div>
+                <p class="uk-text-meta ">Si deseas más información acerca de mis servicios, contáctame. </p>
                 <a target="_blank" href="https://github.com/karyvdj" class="uk-icon-button uk-margin-small-right" uk-icon="icon: github"></a>
                 <a target="_blank" href="https://www.linkedin.com/in/karina-vazquez-donjuan/" class="uk-icon-button  uk-margin-small-right" uk-icon="icon:  linkedin"></a>
                 <a title="kar.vaz.donjuan@gmail.com" uk-tooltip="pos: bottom" href="mailto:kar.vaz.donjuan@gmail.com" class="uk-icon-button uk-margin-small-right" uk-icon="icon: mail"></a>
                 <a title="(55) 1697 4913" uk-tooltip="pos: bottom" href="tel://5516974913" class="uk-icon-button uk-margin-small-right" uk-icon="icon: phone"></a>
+                <a target="_blank" title="(55) 1697 4913" uk-tooltip="pos: bottom" href="https://api.whatsapp.com/send?phone=15551234567&text=Hola!%20¿Estas%20interesado%20en%20contactarme?" class="uk-icon-button uk-margin-small-right" uk-icon="icon:  whatsapp"></a>
             </div>
         </div>
     </footer>

@@ -1,6 +1,15 @@
 body{
   font-family:'Pavanam', sans-serif;
-
+}
+.nombre-portada{
+  font-family: 'Megrim', cursive;
+}
+.subtitulos{
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+}
+.texto-blanco{
+  color: white;
 }
 .texto-magenta{
   color: #AB0067;
@@ -9,7 +18,7 @@ body{
   color: #012F55;
 }
 .texto-gris{
-  color: #788A8C;
+  color: #606465;
 }
 .azul-morado{
   background: #708DBF;
@@ -30,9 +39,39 @@ body{
   background-image: url(../assets/img/ben-neale-210881.jpg);
   height: 100vh;
 }
-.fuente-principal{
-  font-family: 'Carrois Gothic SC', sans-serif;
-}
 .uk-link, a:hover{
   color: white;
+}
+.uk-tooltip{
+  background: #AB0067;
+  border-radius:10px;
+}
+h2.nombre-portada, #proyectosWeb h2{
+  margin: 0;
+}
+.uk-button{
+  border-radius: 5px;
+}
+
+@media(max-width: 480px){
+  .ocultar-movile{
+    display: none;
+  }
+  #fondo .nombre-portada{
+    font-size: 4em;
+    text-align: center;
+  }
+  #fondo span{
+    font-size: 1em;
+    text-align: center;
+  }
+}
+@media(max-width: 1024px and min-width:470px;){
+  #fondo .nombre-portada{
+    font-size: 6em;
+    text-align: center;
+  }
+  #fondo span{
+    font-size: 4em;
+  }
 }
