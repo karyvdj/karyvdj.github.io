@@ -88,12 +88,4 @@ h2.nombre-portada, #proyectosWeb h2{
     .ocultar-movile{
       display: none;
     }
-    #fondo .nombre-portada{
-      font-size: 3em;
-      text-align: center;
-    }
-    #fondo span{
-      font-size: 1em;
-      text-align: center;
-    }
   }
