@@ -18,8 +18,8 @@
           <span uk-navbar-toggle-icon></span>
           <span class="uk-margin-small-left">MENÚ</span>
         </a>
-        <div class="uk-panel uk-padding ocultar-movile uk-aling-right@s">
-            <a class="uk-logo" href="#"><img src="assets/img/ico_dj_trans.svg" alt="" class="img-ico"></a>
+        <div class="uk-panel uk-padding-small ocultar-movile ocultar-ico-nav logo">
+            <a class="uk-logo" href="#"><img src="assets/img/ico_dj_trans.svg" alt="logo" class="img-ico"></a>
         </div>
         <div class="uk-navbar-right uk-visible@m">
             <ul class="uk-navbar-nav">
@@ -74,7 +74,7 @@
     </section>
 
     <!-- SECCION PORTADA -->
-    <section class=" uk-background-fixed uk-background-center-center uk-background-cover  uk-flex uk-flex-column uk-flex-center uk-flex-middle uk-text-center@s" id="fondo-portada">
+    <section class=" uk-background-fixed uk-background-center-center uk-background-cover  uk-flex uk-flex-column uk-flex-center uk-flex-middle uk-text-center@s" uk-height-viewport id="fondo-portada">
       <h1 class="nombre-portada texto-marino uk-heading-hero" uk-parallax="blur: 10; sepia: 100;">Karina Donjuan</h1>
       <span class="subtitulos texto-gris uk-text-lead" uk-parallax="blur: 10; sepia: 100;">Front-end developer & Diseñadora Gráfica</span>
       <a class="texto-magenta" href="#acercaMi" uk-scroll>
@@ -85,69 +85,69 @@
 <!-- SECCION ACERCA DE MI -->
     <section id="sobreMi" class="uk-grid uk-child-width-1-2@m uk-child-width-1-2@s uk-padding-large ">
       <article class="uk-text-right uk-padding-small uk-heading-line">
-      <h2 class="texto-magenta subtitulos">Sobre mí</h2>
-      <div class="uk-grid uk-padding-small uk-child-width-1-2@m uk-child-width-1-2@s uk-grid-large@m uk-grid-large@s uk-panel">
-        <div>
-          <img uk-scrollspy="cls: uk-animation-slide-left; repeat: true" src="assets/img/yo.jpg" alt="Karina">
-        </div>
-        <div class="uk-text-left">
-          <h4 class="subtitulos"><i>"El mundo necesita más gente que ame lo que hace"</i></h4>
-          <p class="uk-dropcap">
-            Bienvenidos a mi portafolio personal. Mi nombre es Karina Vazquez Donjuan, soy front-end developer & diseñadora gráfica. Nací en la Ciudad de México,
-            un lugar lleno de colores y sabores, ideal para amantes de lo visual como yo. <br> Siempre he creido que las mejores experiencia llegan por la vista;
-            es así como <span class="texto-magenta"><i> el diseño y tecnolgía están para contar historias: donde una idea cobra vida</i></span>.
-          </p>
-          <div class="uk-margin-left">
-            <a target="_blank" class="uk-button uk-button-default magenta texto-blanco" href="assets/img/cv_donjuan.pdf"> Ver CV</a>
+          <h2 class="texto-magenta subtitulos">Sobre mí</h2>
+          <div class="uk-grid uk-padding-small uk-child-width-1-2@m uk-child-width-1@s uk-grid-large@m uk-grid-large@s uk-panel">
+              <div>
+                <img uk-scrollspy="cls: uk-animation-slide-left; repeat: true" src="assets/img/yo.jpg" alt="Karina">
+              </div>
+              <div class="uk-text-left">
+                <h4 class="subtitulos"><i>"El mundo necesita más gente que ame lo que hace"</i></h4>
+                <p class="uk-dropcap">
+                  Bienvenidos a mi portafolio personal. Mi nombre es Karina Vazquez Donjuan, soy front-end developer & diseñadora gráfica. Nací en la Ciudad de México,
+                  un lugar lleno de colores y sabores, ideal para amantes de lo visual como yo. <br> Siempre he creido que las mejores experiencia llegan por la vista;
+                  es así como <span class="texto-magenta"><i> el diseño y tecnolgía están para contar historias: donde una idea cobra vida</i></span>.
+                </p>
+                <div class="uk-margin-left">
+                  <a target="_blank" class="uk-button uk-button-default magenta texto-blanco" href="assets/img/cv_donjuan.pdf"> Ver CV</a>
+                </div>
+              </div>
           </div>
-        </div>
-        </div>
       </article>
 
       <article class="uk-text-right">
         <div class=" uk-heading-line">
           <h2 class="texto-magenta subtitulos uk-padding-small">Habilidades Técnicas</h2>
         </div>
-        <div class="uk-child-width-1-4@m uk-child-width-1-4@s  uk-grid-small uk-text-center uk-grid">
-          <a class="uk-button" title="INTERMEDIO" uk-tooltip="pos:top-right">
+        <div class="uk-child-width-1-4@m uk-child-width-1-2@s uk-grid-small uk-text-center uk-grid">
+          <a class="uk-button uk-margin-small" title="INTERMEDIO" uk-tooltip="pos:top-right">
             <img src="assets/img/tecnico-04.png" alt="html">
           </a>
-          <a class="uk-button " title="INTERMEDIO" uk-tooltip="pos:top-right">
-            <img src="assets/img/tecnico-05.png" alt="">
+          <a class="uk-button uk-margin-small" title="INTERMEDIO" uk-tooltip="pos:top-right">
+            <img src="assets/img/tecnico-05.png" alt="css">
           </a>
-          <a class="uk-button " title="BÁSICO" uk-tooltip="pos:top-right">
-            <img src="assets/img/tecnico-06.png" alt="">
+          <a class="uk-button uk-margin-small" title="BÁSICO" uk-tooltip="pos:top-right">
+            <img src="assets/img/tecnico-06.png" alt="js">
           </a>
-          <a class="uk-button ocultar-movile" title="BÁSICO" uk-tooltip="pos:top-right">
-            <img src="assets/img/tecnico-11.png" alt="">
+          <a class="uk-button uk-margin-small" title="BÁSICO" uk-tooltip="pos:top-right">
+            <img src="assets/img/tecnico-11.png" alt="jquery">
           </a>
         </div>
-        <div class="uk-child-width-1-4@m uk-child-width-1-4@s  uk-grid-small uk-text-center uk-grid ocultar-movile">
-          <a class="uk-button " title="AVANZADO" uk-tooltip="pos:bottom-right">
-            <img src="assets/img/tecnico-07.png" alt="">
+        <div class="uk-child-width-1-4@m uk-child-width-1-2@s uk-grid-small uk-text-center uk-grid ocultar-movile ocultar-ipad">
+          <a class="uk-button uk-margin-small" title="AVANZADO" uk-tooltip="pos:bottom-right">
+            <img src="assets/img/tecnico-07.png" alt="illustrator">
           </a>
-          <a class="uk-button " title="AVANZADO" uk-tooltip="pos:bottom-right">
-            <img src="assets/img/tecnico-08.png" alt="">
+          <a class="uk-button uk-margin-small" title="AVANZADO" uk-tooltip="pos:bottom-right">
+            <img src="assets/img/tecnico-08.png" alt="indesign">
           </a>
-          <a class="uk-button " title="AVANZADO" uk-tooltip="pos:bottom-right">
-            <img src="assets/img/tecnico-09.png" alt="">
+          <a class="uk-button uk-margin-small" title="AVANZADO" uk-tooltip="pos:bottom-right">
+            <img src="assets/img/tecnico-09.png" alt="photoshop">
           </a>
-          <a class="uk-button " title="BÁSICO" uk-tooltip="pos:bottom-right">
-            <img src="assets/img/tecnico-10.png" alt="">
+          <a class="uk-button uk-margin-small" title="BÁSICO" uk-tooltip="pos:bottom-right">
+            <img src="assets/img/tecnico-10.png" alt="cinema4D">
           </a>
         </div>
         <div class="uk-margin uk-heading-line ocultar-movile">
           <h3 class="texto-magenta subtitulos">Framework</h3>
         </div>
-        <div class="uk-child-width-1-3@m uk-child-width-1-5@s  uk-grid-small uk-flex-center uk-grid ocultar-movile">
+        <div class="uk-child-width-1-3@m uk-child-width-1-3@s  uk-grid-small uk-flex-center uk-grid ocultar-movile">
           <a class="uk-button " title="INTERMEDIO" uk-tooltip="pos:bottom-right">
-            <img src="assets/img/frame-12.png" alt="">
+            <img src="assets/img/frame-12.png" alt="bootstrap">
           </a>
           <a class="uk-button " title="INTERMEDIO" uk-tooltip="pos:bottom-right">
-            <img src="assets/img/frame-13.png" alt="">
+            <img src="assets/img/frame-13.png" alt="uikit">
           </a>
           <a class="uk-button " title="INTERMEDIO" uk-tooltip="pos:bottom-right">
-            <img src="assets/img/frame-14.png" alt="">
+            <img src="assets/img/frame-14a.png" alt="materialize">
           </a>
         </div>
       </article>
@@ -158,7 +158,7 @@
       <div class="uk-text-right uk-heading-line">
         <h2 class=" uk-padding-small subtitulos texto-blanco">Mis Proyectos</h2>
       </div>
-      <section class="uk-grid uk-grid-collapse uk-child-width-1-3@m uk-child-width-1-3@s"  uk-scrollspy="cls: uk-animation-fade; target: .proyectos; delay: 500; repeat: true" >
+      <section class="uk-grid uk-grid-collapse uk-child-width-1-3@m uk-child-width-1-2@s uk-flex uk-flex-center"  uk-scrollspy="cls: uk-animation-fade; target: .proyectos; delay: 500; repeat: true" >
         <div class="proyectos">
             <div class="uk-inline-clip uk-transition-toggle">
                 <img src="assets/img/applove.jpg" alt="">
@@ -214,22 +214,22 @@
         <section class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <article class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid >
-                <div class="uk-background-cover" id="img-applove" uk-height-viewport></div>
-                <div class="uk-padding-large">
-                    <h1>APPLOVE</h1>
+                <div class="uk-background-cover uk-background-top-center" id="img-applove" uk-height-viewport></div>
+                <div class="uk-padding-small">
+                    <h1 class="subtitulos">Applove</h1>
                     <p>Proyecto realizado en Laboratoria, maquetación web con grid y funcionalidad de modal en imagenes.</p>
                     <ul>
-                      <ol>Herramientas</ol>
+                      <ol><b>Herramientas</b></ol>
                       <li>HTML</li>
                       <li>CSS</li>
                       <li>JS</li>
                     </ul>
-                    <div class="uk-grid">
-                      <a class="uk-button uk-button-default magenta texto-blanco" target="_blank" href="https://github.com/karyvdj/Applove-Grids">
+                    <div class="uk-grid uk-padding">
+                      <a class="uk-button uk-button-default magenta texto-blanco uk-margin-small-top" target="_blank" href="https://github.com/karyvdj/Applove-Grids">
                         ver código
                         <span uk-icon="icon: github"></span>
                       </a>
-                      <a class="uk-button uk-button-default magenta texto-blanco" target="_blank" href="https://karyvdj.github.io/Applove-Grids/index.html">
+                      <a class="uk-button uk-button-default magenta texto-blanco uk-margin-small-top" target="_blank" href="https://karyvdj.github.io/Applove-Grids/index.html">
                         ver sitio
                         <span uk-icon="icon: laptop"></span>
                       </a>
@@ -243,18 +243,18 @@
         <section class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <article class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                  <div class="uk-background-cover" id="img-labcar" uk-height-viewport></div>
-                  <div class="uk-padding-large">
-                    <h1>LABCAR</h1>
+                  <div class="uk-background-cover uk-background-top-center" id="img-labcar" uk-height-viewport></div>
+                  <div class="uk-padding-small">
+                    <h1 class="subtitulos">Labcar</h1>
                     <p>Proyecto realizado en Laboratoria, maquetación web con grid y funcionalidad de modal en imagenes.</p>
                     <ul>
-                      <ol>Herramientas</ol>
+                      <ol><b>Herramientas</b></ol>
                       <li>HTML</li>
                       <li>CSS</li>
                       <li>JS</li>
                     </ul>
-                    <div class="uk-grid">
-                      <a class="uk-button uk-button-default magenta texto-blanco" target="_blank" href="https://github.com/karyvdj/LabCar">
+                    <div class="uk-grid uk-padding">
+                      <a class="uk-button uk-button-default magenta texto-blanco uk-margin-small-top" target="_blank" href="https://github.com/karyvdj/LabCar">
                         ver código
                         <span uk-icon="icon: github"></span>
                       </a>
@@ -272,18 +272,18 @@
         <section class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <article class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" id="img-honey" uk-height-viewport></div>
-                <div class="uk-padding-large">
-                    <h1>HONEY WOOD</h1>
+                <div class="uk-background-cover uk-background-top-center" id="img-honey" uk-height-viewport></div>
+                <div class="uk-padding-small">
+                    <h1 class="subtitulos">Honey Wood</h1>
                     <p>Proyecto realizado en Laboratoria, maquetación web con grid y funcionalidad de modal en imagenes.</p>
                     <ul>
-                      <ol>Herramientas</ol>
+                      <ol><b>Herramientas</b></ol>
                       <li>HTML</li>
                       <li>CSS</li>
                       <li>JS</li>
                     </ul>
-                    <div class="uk-grid">
-                      <a class="uk-button uk-button-default magenta texto-blanco" target="_blank" href="https://github.com/karyvdj/HoneyWood-Responsive">
+                    <div class="uk-grid uk-padding">
+                      <a class="uk-button uk-button-default magenta texto-blanco uk-margin-small-top" target="_blank" href="https://github.com/karyvdj/HoneyWood-Responsive">
                         ver código
                         <span uk-icon="icon: github"></span>
                       </a>
@@ -301,18 +301,18 @@
         <section class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <article class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" id="img-yum" uk-height-viewport></div>
-                <div class="uk-padding-large">
-                    <h1>yumyum.mx</h1>
+                <div class="uk-background-cover uk-background-top-center" id="img-yum" uk-height-viewport></div>
+                <div class="uk-padding-small">
+                    <h1 class="subtitulos">yumyum.mx</h1>
                     <p>Proyecto realizado en Laboratoria, maquetación web con grid y funcionalidad de modal en imagenes.</p>
                     <ul>
-                      <ol>Herramientas</ol>
+                      <ol><b>Herramientas</b></ol>
                       <li>HTML</li>
                       <li>CSS</li>
                       <li>JS</li>
                     </ul>
-                    <div class="uk-grid">
-                      <a class="uk-button uk-button-default magenta texto-blanco" target="_blank" href="https://github.com/karyvdj/yumyum.mx-jQuery">
+                    <div class="uk-grid uk-padding">
+                      <a class="uk-button uk-button-default magenta texto-blanco uk-margin-small-top" target="_blank" href="https://github.com/karyvdj/yumyum.mx-jQuery">
                         ver código
                         <span uk-icon="icon: github"></span>
                       </a>
@@ -330,18 +330,18 @@
         <section class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <article class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" id="img-lyft" uk-height-viewport></div>
-                <div class="uk-padding-large">
-                    <h1>Lyft</h1>
+                <div class="uk-background-cover uk-background-top-center" id="img-lyft" uk-height-viewport></div>
+                <div class="uk-padding-small">
+                    <h1 class="subtitulos">Lyft</h1>
                     <p>Proyecto realizado en Laboratoria, maquetación web con grid y funcionalidad de modal en imagenes.</p>
                     <ul>
-                      <ol>Herramientas</ol>
+                      <ol><b>Herramientas</b></ol>
                       <li>HTML</li>
                       <li>CSS</li>
                       <li>JS</li>
                     </ul>
-                    <div class="uk-grid">
-                      <a class="uk-button uk-button-default magenta texto-blanco" target="_blank" href="https://github.com/karyvdj/clone-lyft">
+                    <div class="uk-grid uk-padding">
+                      <a class="uk-button uk-button-default magenta texto-blanco uk-margin-small-top" target="_blank" href="https://github.com/karyvdj/clone-lyft">
                         ver código
                         <span uk-icon="icon: github"></span>
                       </a>

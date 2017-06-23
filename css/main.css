@@ -20,12 +20,6 @@ body{
 .texto-gris{
   color: #606465;
 }
-.texto-turquesa{
-  color: #49C6C2;
-}
-.azul-morado{
-  background: #708DBF;
-}
 .turquesa{
   background: #49C6C2;
 }
@@ -43,7 +37,6 @@ body{
 }
 #fondo-portada{
   background-image: url(../assets/img/ben-neale-210881.jpg);
-  height: 100vh;
 }
 #fondo-contacto{
   background-image: url(../assets/img/web.jpg);
@@ -77,25 +70,30 @@ h2.nombre-portada, #proyectosWeb h2{
   border-radius: 5px;
 }
 
-@media(max-width: 480px){
-  .ocultar-movile{
+@media(max-width: 768px){
+  .ocultar-ico-nav{
     display: none;
   }
+
   #fondo .nombre-portada{
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
   }
   #fondo span{
     font-size: 1em;
     text-align: center;
   }
-}
-@media(max-width: 1024px and min-width:470px;){
-  #fondo .nombre-portada{
-    font-size: 6em;
-    text-align: center;
+
+  @media(max-width: 500px){
+    .ocultar-movile{
+      display: none;
+    }
+    #fondo .nombre-portada{
+      font-size: 3em;
+      text-align: center;
+    }
+    #fondo span{
+      font-size: 1em;
+      text-align: center;
+    }
   }
-  #fondo span{
-    font-size: 4em;
-  }
-}
