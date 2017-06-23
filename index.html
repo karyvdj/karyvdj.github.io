@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Karina Donjuan</title>
-    <link rel="shortcut icon" type="image/x-icon" href="">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/ico_dj_negativo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.25/css/uikit.min.css" />
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Poiret+One|Pavanam|Megrim" rel="stylesheet">
@@ -18,10 +18,12 @@
           <span uk-navbar-toggle-icon></span>
           <span class="uk-margin-small-left">MENÚ</span>
         </a>
+        <div class="uk-panel uk-padding ocultar-movile uk-aling-right@s">
+            <a class="uk-logo" href="#"><img src="assets/img/ico_dj_trans.png" alt="" class="img-ico"></a>
+        </div>
         <div class="uk-navbar-right uk-visible@m">
-            <a href="#" class="uk-icon-button texto-marino" uk-icon="icon: code"></a>
             <ul class="uk-navbar-nav">
-                <li class="uk-active"><a href="#acercaMi" class="texto-marino">Acerca de mí</a></li>
+                <li class="uk-active"><a href="#sobreMi" class="texto-marino">Sobre mí</a></li>
                 <li>
                   <a href="#" class="texto-marino">
                     Mis Proyectos
@@ -45,7 +47,7 @@
       <div id="offcanvas-nav" uk-offcanvas="overlay: true">
         <div class="uk-offcanvas-bar turquesa">
           <ul class="uk-nav uk-nav-default">
-            <li class="uk-nav-header uk-active"><a href="#acercaMi">Acerca de mí</a></li>
+            <li class="uk-nav-header uk-active"><a href="#sobreMi">Sobre mí</a></li>
             <li class="uk-parent">
                 <a href="#">Mis Proyectos</a>
                 <ul class="uk-nav-sub">
@@ -81,17 +83,19 @@
     </section>
 
 <!-- SECCION ACERCA DE MI -->
-    <section id="acercaMi" class="uk-grid uk-child-width-1-2@m uk-child-width-1-2@s uk-padding-large ">
+    <section id="sobreMi" class="uk-grid uk-child-width-1-2@m uk-child-width-1-2@s uk-padding-large ">
       <article class="uk-text-right uk-padding-small uk-heading-line">
-      <h2 class="texto-magenta subtitulos">Acerca de mi</h2>
+      <h2 class="texto-magenta subtitulos">Sobre mí</h2>
       <div class="uk-grid uk-padding-small uk-child-width-1-2@m uk-child-width-1-2@s uk-grid-large@m uk-grid-large@s uk-panel">
         <div>
           <img uk-scrollspy="cls: uk-animation-slide-left; repeat: true" src="assets/img/yo.jpg" alt="Karina">
         </div>
         <div class="uk-text-left">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          <h4 class="subtitulos"><i>"El mundo necesita más gente que ame lo que hace"</i></h4>
+          <p class="uk-dropcap">
+            Bienvenidos a mi portafolio personal. Mi nombre es Karina Vazquez Donjuan, soy front-end developer & diseñadora gráfica. Nací en la Ciudad de México,
+            un lugar lleno de colores y sabores, ideal para amantes de lo visual como yo. <br> Siempre he creido que las mejores experiencia llegan por la vista;
+            es así como <span class="texto-magenta"><i> el diseño y tecnolgía están para contar historias: donde una idea cobra vida</i></span>.
           </p>
           <div class="uk-margin-left">
             <a target="_blank" class="uk-button uk-button-default magenta texto-blanco" href="assets/img/cv_donjuan.pdf"> Ver CV</a>
@@ -351,9 +355,9 @@
         </section>
     </section>
 
-<!--Seccion contacto -->
+<!--Seccion contacto
     <section class=" uk-background-fixed uk-background-center-center uk-background-cover  uk-flex uk-flex-column uk-height-viewport" id="fondo-contacto">
-    </section>
+    </section> -->
 
 <!-- FOOTER  -->
     <footer id="contactame" class="uk-section uk-section-secondary uk-light magenta uk-padding">

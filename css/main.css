@@ -20,6 +20,9 @@ body{
 .texto-gris{
   color: #606465;
 }
+.texto-turquesa{
+  color: #49C6C2;
+}
 .azul-morado{
   background: #708DBF;
 }
@@ -34,6 +37,9 @@ body{
 }
 .opacidad{
   background: rgba(255, 255, 255, 0.8);
+}
+.img-ico{
+  width: 4vh;
 }
 #fondo-portada{
   background-image: url(../assets/img/ben-neale-210881.jpg);
