@@ -35,9 +35,13 @@ body{
 .opacidad{
   background: rgba(255, 255, 255, 0.8);
 }
-#fondo{
+#fondo-portada{
   background-image: url(../assets/img/ben-neale-210881.jpg);
   height: 100vh;
+}
+#fondo-contacto{
+  background-image: url(../assets/img/web.jpg);
+
 }
 .uk-link, a:hover{
   color: white;
