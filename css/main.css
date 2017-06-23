@@ -39,7 +39,7 @@ body{
   background: rgba(255, 255, 255, 0.8);
 }
 .img-ico{
-  width: 4vh;
+  width: 6vh;
 }
 #fondo-portada{
   background-image: url(../assets/img/ben-neale-210881.jpg);
@@ -47,7 +47,21 @@ body{
 }
 #fondo-contacto{
   background-image: url(../assets/img/web.jpg);
-
+}
+#img-applove{
+  background-image: url(../assets/img/applove.png);
+}
+#img-labcar{
+  background-image: url(../assets/img/labcar.png);
+}
+#img-honey{
+  background-image: url(../assets/img/honey.png);
+}
+#img-yum{
+  background-image: url(../assets/img/yum.png);
+}
+#img-lyft{
+  background-image: url(../assets/img/lyft.png);
 }
 .uk-link, a:hover{
   color: white;
