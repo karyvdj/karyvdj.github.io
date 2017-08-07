@@ -1,30 +1,30 @@
 body{
   font-family:'Pavanam', sans-serif;
 }
-.nombre-portada{
+.nombre_portada{
   font-family: 'Megrim', cursive;
 }
 .subtitulos{
   font-family: 'Poiret One', cursive;
   font-weight: bold;
 }
-.texto-blanco{
+.texto_blanco{
   color: white;
 }
-.texto-magenta{
-  color: #AB0067;
+.texto_magenta{
+  color: #A61C6E;
 }
-.texto-marino{
+.texto_marino{
   color: #012F55;
 }
-.texto-gris{
+.texto_gris{
   color: #666666;
 }
 .turquesa{
-  background: #49C6C2;
+  background: #6BCFCB;
 }
 .magenta{
-  background: #AB0067;
+  background: #A61C6E;
 }
 .marino{
   background: #012F55;
@@ -32,11 +32,30 @@ body{
 .opacidad{
   background: rgba(255, 255, 255, 0.8);
 }
-.img-ico{
+.img_ico{
   width: 6vh;
 }
+.img_yo{
+  width: 25vh;
+}
+.logo{
+  width: 6vh;
+}
+.linea_separador{
+  width: 150px;
+  height: 2px;
+  background-color: #012F55;
+  margin-bottom: 20px;
+}
+
 #fondo-portada{
-  background-image: url(../assets/img/ben-neale-210881.jpg);
+  background-image: url(../assets/img/ben-neale-210881.png);
+}
+#sobreMi{
+  background-image: url(../assets/img/textura-1.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 #fondo-contacto{
   background-image: url(../assets/img/web.jpg);
@@ -56,6 +75,24 @@ body{
 #img-lyft{
   background-image: url(../assets/img/lyft.png);
 }
+#pleca{
+  background-image: url(../assets/img/a.png);
+  background-position: 50% 0;
+}
+.img_tecnico{
+  text-align: center;
+  transform: scale(1.1) rotate(-45deg);
+}
+#sobreMi .uk-card{
+  transform: rotate(45deg);
+  border: 5px solid #62525B;
+}
+
+#sobreMi .uk-card:hover{
+  border: 5px solid #A61C6E;
+  cursor: pointer;
+}
+
 .uk-link, a:hover{
   color: white;
 }
@@ -63,7 +100,7 @@ body{
   background: #AB0067;
   border-radius:10px;
 }
-h2.nombre-portada, #proyectosWeb h2{
+h2.nombre_portada, #proyectosWeb h2{
   margin: 0;
 }
 
