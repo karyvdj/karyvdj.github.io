@@ -35,14 +35,14 @@ body{
 .opacidad{
   background: rgba(255, 255, 255, 0.8);
 }
-.img_ico, .logo{
-  width: 6vh;
+.img_logo{
+  width: 10vh;
 }
 .img_yo{
-  width: 25vh;
+  width: 35vh;
 }
 .img_flechas{
-  width: 3vh;
+  width: 4vh;
 }
 .linea_separador, .linea_separador_blanca{
   width: 150px;
