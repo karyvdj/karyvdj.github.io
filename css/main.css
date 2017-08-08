@@ -35,32 +35,38 @@ body{
 .opacidad{
   background: rgba(255, 255, 255, 0.8);
 }
-.img_ico{
+.img_ico, .logo{
   width: 6vh;
 }
 .img_yo{
   width: 25vh;
 }
-.logo{
-  width: 6vh;
+.img_flechas{
+  width: 3vh;
 }
-.linea_separador{
+.linea_separador, .linea_separador_blanca{
   width: 150px;
   height: 2px;
   background-color: #012F55;
   margin-bottom: 20px;
 }
+.linea_separador_blanca{
+  background-color: white;
+}
 #fondo-portada{
   background-image: url(../assets/img/ben-neale-210881.png);
+}
+#proyectosWeb{
+  background-image: url(../assets/img/textura-2.png);
+  background-position: lef;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 #sobreMi{
   background-image: url(../assets/img/textura-1.png);
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
-}
-#fondo-contacto{
-  background-image: url(../assets/img/web.jpg);
 }
 #img-applove{
   background-image: url(../assets/img/applove.png);
@@ -77,9 +83,18 @@ body{
 #img-lyft{
   background-image: url(../assets/img/lyft.png);
 }
+#img-exp{
+  background-image: url(../assets/img/experimenta.png);
+}
+#img-google{
+  background-image: url(../assets/img/google.png);
+}
 #pleca{
   background-image: url(../assets/img/a.png);
   background-position: 50% 0;
+}
+.uk-overlay-default{
+  background: rgba(0, 4, 57, 0.8)
 }
 .img_tecnico{
   text-align: center;
@@ -143,8 +158,7 @@ h2.nombre_portada, #proyectosWeb h2{
     display: none;
   }
 }
-
-@media(max-width: 702px){
+@media(max-width: 639px){
   .ocultar-responsive , .ocultar-movile{
     display: none;
   }
@@ -175,5 +189,8 @@ h2.nombre_portada, #proyectosWeb h2{
 @media(max-width: 460px){
   .uk-heading-hero, .uk-text-lead{
     text-align: center;
+  }
+  .uk-offcanvas-bar{
+    height: 50vh;
   }
 }
