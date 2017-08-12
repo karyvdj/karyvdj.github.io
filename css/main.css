@@ -54,7 +54,7 @@ body{
   background-color: white;
 }
 #fondo-portada{
-  background-image: url(../assets/img/ben-neale-210881.png);
+  background-image: url(../assets/img/ben-neale-210881.jpg);
 }
 #proyectosWeb{
   background-image: url(../assets/img/textura-2.png);
@@ -99,6 +99,7 @@ body{
 .img_tecnico{
   text-align: center;
   transform: scale(1.1) rotate(-45deg);
+  width: 100%;
 }
 #sobreMi .uk-card{
   transform: rotate(45deg);
