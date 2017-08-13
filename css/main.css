@@ -53,6 +53,38 @@ body{
 .linea_separador_blanca{
   background-color: white;
 }
+.uk-overlay-default{
+  background: rgba(0, 4, 57, 0.8)
+}
+.img_tecnico{
+  text-align: center;
+  transform: scale(1.1) rotate(-45deg);
+  width: 100%;
+}
+#sobreMi .uk-card{
+  transform: rotate(45deg);
+  border: 5px solid #62525B;
+}
+#sobreMi .uk-card:hover{
+  border: 5px solid #A61C6E;
+  cursor: pointer;
+}
+.uk-link, a:hover{
+  color: white;
+}
+.uk-tooltip{
+  background: #AB0067;
+  border-radius:10px;
+}
+h2.nombre_portada, #proyectosWeb h2{
+  margin: 0;
+}
+.proyectos{
+  width: 100%;
+}
+.uk-button{
+  border-radius: 5px;
+}
 #fondo-portada{
   background-image: url(../assets/img/ben-neale-210881.jpg);
 }
@@ -93,47 +125,17 @@ body{
   background-image: url(../assets/img/a.png);
   background-position: 50% 0;
 }
-.uk-overlay-default{
-  background: rgba(0, 4, 57, 0.8)
-}
-.img_tecnico{
-  text-align: center;
-  transform: scale(1.1) rotate(-45deg);
-  width: 100%;
-}
-#sobreMi .uk-card{
-  transform: rotate(45deg);
-  border: 5px solid #62525B;
-}
-#sobreMi .uk-card:hover{
-  border: 5px solid #A61C6E;
-  cursor: pointer;
-}
 
-.uk-link, a:hover{
-  color: white;
-}
-.uk-tooltip{
-  background: #AB0067;
-  border-radius:10px;
-}
-h2.nombre_portada, #proyectosWeb h2{
-  margin: 0;
-}
-
-.uk-button{
-  border-radius: 5px;
-}
 
 /* --------------MEDIA---------- */
 @media(max-width: 959px){
   .ocultar-ico-nav{
     display: none;
   }
-  .uk-offcanvas-bar{
+  #offcanvas-nav .uk-offcanvas-bar{
     height: 30vh;
   }
-  .uk-offcanvas-bar, a:hover{
+  #offcanvas-nav .uk-offcanvas-bar, a:hover{
     color: #A61C6E
   }
   #fondo .nombre-portada{
@@ -180,7 +182,7 @@ h2.nombre_portada, #proyectosWeb h2{
   }
   .img_logos_tecnicos{
     text-align: center;
-    width: 25%;
+    width: 30%;
   }
   .uk-card-hover:not(.uk-card-default):not(.uk-card-primary):not(.uk-card-secondary):hover{
     box-shadow: 0 0px 0px rgba(0,0,0,0);
@@ -191,7 +193,7 @@ h2.nombre_portada, #proyectosWeb h2{
   .uk-heading-hero, .uk-text-lead{
     text-align: center;
   }
-  .uk-offcanvas-bar{
+  #offcanvas-nav .uk-offcanvas-bar{
     height: 50vh;
   }
 }

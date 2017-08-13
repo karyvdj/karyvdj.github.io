@@ -32,7 +32,7 @@
                   <div class="uk-navbar-dropdown">
                     <ul class="uk-nav uk-navbar-dropdown-nav">
                         <li ><a href="#proyectosWeb" class="texto_marino">Web</a></li>
-                        <li><a href="#" class="texto_marino">Diseño</a></li>
+                        <li><a href="#proyectosDiseno" class="texto_marino">Diseño</a></li>
                     </ul>
                   </div>
                 </li>
@@ -58,7 +58,7 @@
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="#proyectosDiseno">
                         <span class="uk-margin-small-right" uk-icon="icon: thumbnails"></span>
                         Diseño
                       </a>
@@ -92,7 +92,7 @@
               <div class="uk-text-left">
                 <h4 class="subtitulos uk-text-center uk-padding-small uk-padding-remove-top"><i>"El mundo necesita más gente <br> que ame lo que hace"</i></h4>
                 <p class="uk-dropcap">
-                  Bienvenidos a mi portafolio personal. Mi nombre es Karina Vazquez Donjuan, soy front-end developer & diseñadora gráfica. Nací en la Ciudad de México,
+                  Bienvenidos a mi portafolio personal. Mi nombre es Karina Vazquez Donjuan, soy <b>front-end developer <span class="texto_magenta">&</span> diseñadora gráfica</b>. Nací en la Ciudad de México,
                   un lugar lleno de colores y sabores, ideal para amantes de lo visual como yo. <br> Siempre he creido que las mejores experiencia llegan por la vista;
                   es así como <span class="texto_magenta"><i> el diseño y tecnolgía están para contar historias: donde una idea cobra vida</i></span>.
                 </p>
@@ -191,17 +191,15 @@
       <div class="uk-container uk-text-center uk-heading-line uk-padding-large uk-padding-remove-bottom">
         <h2 class="texto_magenta subtitulos">Portafolio</h2>
       </div>
-      <div class="uk-padding uk-flex uk-flex-between">
-        <div>
-          <a href="#"><img class="img_flechas" src="assets/img/left.png" alt="atras"></a>
-        </div>
-        <div class="uk-text-center">
-          <h3 class="texto_marino subtitulos">Web</h3>
+
+      <div class="uk-padding uk-flex uk-flex-between uk-padding-remove-right">
+        <div class="uk-align-center">
+          <h3 class="uk-text-center texto_marino subtitulos">Web</h3>
           <div class="linea_separador uk-align-center"> </div>
         </div>
-        <div>
-          <a href="#"><img class="img_flechas" src="assets/img/right.png" alt="adelante"></a>
-        </div>
+        <!-- <div>
+          <a href="#proyectosDiseno"><img class="img_flechas" src="assets/img/right.png" alt="adelante" uk-toggle="target: #proyectosDiseno; animation: uk-animation-slide-top"></a>
+        </div> -->
       </div>
       <section class="uk-grid uk-child-width-expand@m uk-flex uk-flex-center" uk-scrollspy="cls: uk-animation-fade; target: .proyectos; delay: 500; repeat: true">
         <div class="proyectos">
@@ -210,7 +208,7 @@
                 <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-text-center">
                   <p class="uk-h4 uk-margin-remove texto_blanco">Sitio web <br>"Socios Experimenta"</p>
                   <div class="linea_separador_blanca uk-align-center"> </div>
-                  <button type="button" uk-toggle="target: #offcanvas-reveal" class="uk-button uk-margin-small-right magenta texto_blanco">VER MÁS</button>
+                  <a href="#proyecto6" uk-toggle  class="uk-button uk-margin-small-right magenta texto_blanco">VER MÁS</a>
                 </div>
             </div>
         </div>
@@ -256,32 +254,94 @@
                 </div>
             </div>
         </div>
+      </section>
+      <section class="uk-grid uk-child-width-expand@m uk-flex uk-flex-center" uk-scrollspy="cls: uk-animation-fade; target: .proyectos; delay: 500; repeat: true">
+        <div class="proyectos">
+            <div class="uk-inline-clip uk-transition-toggle">
+                <img src="assets/img/yum-1.jpg" alt="yumyum">
+                <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-text-center">
+                  <p class="uk-h4 uk-margin-remove texto_blanco">Aplicación <br>"yumyum.mx"</p>
+                  <div class="linea_separador_blanca uk-align-center"> </div>
+                  <a href="#proyecto4" uk-toggle  class="uk-button uk-margin-small-right magenta texto_blanco">VER MÁS</a>
+                </div>
+            </div>
+        </div>
+        <div class="proyectos">
+            <div class="uk-inline-clip uk-transition-toggle">
+                <img src="assets/img/lyft.jpg" alt="lyft">
+                <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-text-center">
+                  <p class="uk-h4 uk-margin-remove texto_blanco">Desarrollo web <br>"LYFT"</p>
+                  <div class="linea_separador_blanca uk-align-center"> </div>
+                  <a href="#proyecto5" uk-toggle  class="uk-button uk-margin-small-right magenta texto_blanco">VER MÁS</a>
+                </div>
+            </div>
+        </div>
+      </section>
     </section>
-    <section class="uk-grid uk-child-width-expand@m uk-flex uk-flex-center" uk-scrollspy="cls: uk-animation-fade; target: .proyectos; delay: 500; repeat: true">
-      <div class="proyectos">
-          <div class="uk-inline-clip uk-transition-toggle">
-              <img src="assets/img/yum-1.jpg" alt="yumyum">
-              <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-text-center">
-                <p class="uk-h4 uk-margin-remove texto_blanco">Aplicación <br>"yumyum.mx"</p>
-                <div class="linea_separador_blanca uk-align-center"> </div>
-                <a href="#proyecto4" uk-toggle  class="uk-button uk-margin-small-right magenta texto_blanco">VER MÁS</a>
-              </div>
-          </div>
-      </div>
-      <div class="proyectos">
-          <div class="uk-inline-clip uk-transition-toggle">
-              <img src="assets/img/lyft.jpg" alt="lyft">
-              <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-text-center">
-                <p class="uk-h4 uk-margin-remove texto_blanco">Desarrollo web <br>"LYFT"</p>
-                <div class="linea_separador_blanca uk-align-center"> </div>
-                <a href="#proyecto5" uk-toggle  class="uk-button uk-margin-small-right magenta texto_blanco">VER MÁS</a>
-              </div>
-          </div>
-      </div>
-    </section>
-  </section>
 
-<!-- MODAL -->
+<!-- SECCION PROYECTOS DISEÑO -->
+    <section id="proyectosDiseno" class="uk-padding-large uk-padding-remove-top">
+      <div class="uk-padding uk-flex uk-flex-between uk-padding-remove-left">
+      <!--   <div>
+          <a href="#proyectosWeb"><img class="img_flechas" src="assets/img/left.png" alt="atras" uk-toggle="target: #proyectosWeb; animation: uk-animation-slide-bottom"></a>
+        </div>  -->
+        <div class="uk-align-center">
+          <h3 class="uk-text-center texto_marino subtitulos">Diseño</h3>
+          <div class="linea_separador uk-align-center"> </div>
+        </div>
+      </div>
+      <section class="uk-grid uk-child-width-expand@m uk-flex uk-flex-center"  uk-scrollspy="cls: uk-animation-fade; target: .proyectos; delay: 500; repeat: true" >
+        <div class="proyectos">
+            <div class="uk-text-center">
+                <div class="uk-inline-clip uk-transition-toggle uk-card-default">
+                    <img src="assets/img/diseno_tren.jpg" alt="">
+                    <img class="uk-transition-scale-down uk-position-cover" src="assets/img/diseno_tren-2.jpg" alt="">
+                </div>
+                  <p class="uk-margin-top texto_gris">Identidad corporativa <b>"El tren"</b></p>
+            </div>
+        </div>
+        <div class="proyectos">
+            <div class="uk-text-center">
+                <div class="uk-inline-clip uk-transition-toggle uk-card-default">
+                    <img src="assets/img/diseno_mex-2.jpg" alt="">
+                    <img class="uk-transition-scale-down uk-position-cover" src="assets/img/diseno_mex.jpg" alt="">
+                </div>
+                  <p class="uk-margin-top texto_gris">Propuesta de branding de la marca <b>"Ciudad de México"</b></p>
+            </div>
+        </div>
+        <div class="proyectos">
+            <div class="uk-text-center">
+                <div class="uk-inline-clip uk-transition-toggle uk-card-default">
+                    <img src="assets/img/diseno_ww.jpg" alt="">
+                    <img class="uk-transition-scale-down uk-position-cover" src="assets/img/diseno_ww-2.jpg" alt="">
+                </div>
+                  <p class="uk-margin-top texto_gris">Identidad gráfica para <b>4º Generación de Laboratoria CDMX</b></p>
+            </div>
+        </div>
+      </section>
+      <section class="uk-grid uk-child-width-expand@m uk-flex uk-flex-center" uk-scrollspy="cls: uk-animation-fade; target: .proyectos; delay: 500; repeat: true">
+        <div class="proyectos">
+            <div class="uk-inline-clip uk-transition-toggle">
+                <img src="assets/img/yum-1.jpg" alt="yumyum">
+                <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-text-center uk-flex-middle">
+                  <p class="uk-h4 uk-margin-remove texto_blanco">Aplicación <br>"yumyum.mx"</p>
+                  <div class="linea_separador_blanca uk-align-center"> </div>
+                </div>
+            </div>
+        </div>
+        <div class="proyectos">
+            <div class="uk-inline-clip uk-transition-toggle">
+                <img src="assets/img/lyft.jpg" alt="lyft">
+                <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-text-center">
+                  <p class="uk-h4 uk-margin-remove texto_blanco">Desarrollo web <br>"LYFT"</p>
+                  <div class="linea_separador_blanca uk-align-center"> </div>
+                </div>
+            </div>
+        </div>
+      </section>
+    </section>
+
+<!-- MODALES WEB-->
     <section id="proyecto1"  uk-modal="center: true">
         <section class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
@@ -439,9 +499,9 @@
         </section>
     </section>
 
-    <section id="offcanvas-reveal" uk-offcanvas="mode: reveal; overlay: true">
-        <section class="uk-offcanvas-bar">
-            <button class="uk-offcanvas-close" type="button" uk-close></button>
+    <section id="proyecto6" uk-modal="center: true">
+        <section class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <article class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
                 <div class="uk-background-cover uk-background-top-center" id="img-exp" uk-height-viewport></div>
                 <div class="uk-padding-small">
