@@ -35,6 +35,9 @@ body{
 .opacidad{
   background: rgba(255, 255, 255, 0.8);
 }
+.no-scroll {
+  overflow: hidden;
+}
 .img_logo{
   width: 10vh;
 }
@@ -60,6 +63,19 @@ body{
   text-align: center;
   transform: scale(1.1) rotate(-45deg);
   width: 100%;
+}
+.ocultar{
+  visibility: hidden;
+}
+.visible{
+  visibility: visible;
+}
+.logo_splash{
+  width: 25vh;
+}
+#splash{
+  width: 100%;
+  height: 100vh;
 }
 #sobreMi .uk-card{
   transform: rotate(45deg);

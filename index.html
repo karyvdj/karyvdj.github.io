@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
+    <meta property="og:title" content="Karina Donjuan | Front-end Dev - Diseñadora Gráfica" />
+    <meta property="og:description" content="Portafolio de  Michelle More" />
+    <meta property="og:url" content="https://karyvdj.github.io/" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,11 +11,17 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/ico/ico_dj.png"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.25/css/uikit.min.css" />
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="assets\css\animate.css">
     <link href="https://fonts.googleapis.com/css?family=Poiret+One|Pavanam|Megrim" rel="stylesheet">
   </head>
-  <body>
+  <body class="no-scroll">
+<!-- SPLASH -->
+    <div id="splash" class= "uk-flex uk-flex-column uk-flex-center uk-flex-middle uk-text-center@s magenta" uk-height-viewport>
+      <img src="assets/ico/ico_dj.svg"  class="logo_splash" alt="logo">
+    </div>
+
 <!-- MENU DESKTOP -->
-    <section class="uk-position-top">
+    <section class="uk-position-top ocultar" id="menu">
       <nav class="opacidad uk-margin" uk-navbar="mode: click" uk-sticky="bottom: #offset"  id="nav">
         <a href="#" class="uk-button uk-hidden@m uk-visible@xs"  uk-toggle="target: #offcanvas-nav">
           <span uk-navbar-toggle-icon></span>
@@ -73,7 +82,7 @@
       </div>
     </section>
 
-    <!-- SECCION PORTADA -->
+<!-- SECCION PORTADA -->
     <section class=" uk-background-fixed uk-background-center-center uk-background-cover uk-flex uk-flex-column uk-flex-center uk-flex-middle uk-text-center@s" uk-height-viewport id="fondo-portada">
       <h1 class="nombre_portada texto_marino uk-heading-hero" uk-parallax="blur: 10; sepia: 100;">Karina Donjuan</h1>
       <span class="subtitulos texto_gris uk-text-lead" uk-parallax="blur: 10; sepia: 100;">Front-end developer <span class="texto_magenta">&</span> Diseñadora Gráfica</span>
@@ -581,7 +590,6 @@
             </div>
         </div>
     </footer>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.25/js/uikit.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.25/js/uikit-icons.min.js"></script>
