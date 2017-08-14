@@ -94,7 +94,7 @@ h2.nombre_portada, #proyectosWeb h2{
   background-repeat: no-repeat;
   background-size: contain;
 }
-#sobreMi{
+#sobreMi , #proyectosDiseno{
   background-image: url(../assets/img/textura-1.png);
   background-position: right;
   background-repeat: no-repeat;
